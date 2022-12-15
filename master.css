@@ -1,0 +1,407 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.wrap{
+    width: 100%;
+    height: 100vh;
+    background-image: url('img/01_01.png');
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+}
+
+.dim{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: 2;
+    background-color: black;
+}
+
+.wrap2{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+}
+
+.fr_set{
+    width: 1400px;
+    height: 100vh;
+    margin: 0 auto;
+    position: relative;
+    z-index: 3;
+}
+
+.fr01{
+    width: 1400px;
+    height: 110px;
+    position: relative;
+    top: 20px;
+    text-align: center;
+    background-image: url('img/01_02.png');
+}
+
+.fr02{
+    width: 1400px;
+    height: 79px;
+    top: 16px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+
+.fr02 > img{
+
+}
+
+.fr03{
+    width: 598px;
+    height: 113px;
+    position: absolute;
+    top: 530px;
+    right: 0px;
+}
+
+/**--sub1스타일--*/
+
+.wrap3{
+    position: absolute;
+    width: 100%;
+    height: 2944px;
+    background-color: #6d6d6d;
+}
+
+.box1{
+    position: relative;
+    width: 1466px;
+    height: 2390px;
+    margin: auto;
+}
+
+.img1{
+    background-image: url(img2/흰배경.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    width: 1466px;
+    height: 2944px;
+    margin: auto;
+}
+
+.img2{
+    width: 1400px;
+    height: 649px;
+    position: relative;
+    width: 1400px;
+    margin: auto;
+}
+
+.s_b01_01{
+    width: 1400px;
+    height: 55px;
+    position: absolute;
+    margin-left: 33px;
+}
+    
+.s_b01_02{
+    width: 351px;
+    height: 55px;
+    position: absolute;
+    margin-left: 33px;
+}
+.s_b01_03{
+    width: 351px;
+    height: 55px;
+    position: absolute;
+    margin-left: 383px;
+}
+.s_b01_04{
+    width: 351px;
+    height: 55px;
+    position: absolute;
+    margin-left: 733px;
+}
+.s_b01_05{
+    width: 351px;
+    height: 55px;
+    position: absolute;
+    margin-left: 1083px;
+}
+
+.s_b01_06{
+    position: absolute;
+    margin-left: 33px;
+    margin-top: 55px;
+}
+
+.s_b01_07{
+    position: absolute;
+    margin-left: 33px;
+    margin-top: 949px;
+}
+
+.wrap4{
+    width: 1400px;
+    height: 276px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.s_b01_ft{
+    width: 1400px;
+    height: 276px;
+    position: absolute;
+    margin: 0 auto;
+    padding-top: 276px;
+}
+
+.LOGO{
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 120px;
+}
+
+/**--sub2스타일--*/
+
+
+.wrap5{
+    position: absolute;
+    width: 100%;
+    height: 6638px;
+    background-color: #6d6d6d;
+}
+
+.box2{
+    position: relative;
+    width: 1466px;
+    height: 6638px;
+    margin: auto;
+}
+
+.img3{
+    background-image: url(img3/흰배경.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    width: 1466px;
+    height: 6638px;
+    margin: auto;
+}
+
+.img4{
+    width: 1400px;
+    height: 649px;
+    position: relative;
+    width: 1400px;
+    margin: auto;
+}
+
+.s_b02_01{
+    width: 1400px;
+    height: 55px;
+    position: absolute;
+    margin-left: 33px;
+}
+    
+.s_b02_02{
+    width: 351px;
+    height: 55px;
+    position: absolute;
+    margin-left: 33px;
+}
+.s_b02_03{
+    width: 351px;
+    height: 55px;
+    position: absolute;
+    margin-left: 383px;
+}
+.s_b02_04{
+    width: 351px;
+    height: 55px;
+    position: absolute;
+    margin-left: 733px;
+}
+.s_b02_05{
+    width: 351px;
+    height: 55px;
+    position: absolute;
+    margin-left: 1083px;
+}
+
+.s_b02_06{
+    position: absolute;
+    margin-left: 33px;
+    margin-top: 55px;
+}
+
+.s_b02_07{
+    position: absolute;
+    margin-left: 33px;
+    margin-top: 457px;
+}
+
+.s_b02_08{
+    position: absolute;
+    margin-left: 33px;
+    margin-top: 1286px;
+}
+
+.s_b02_09{
+    position: absolute;
+    margin-left: 33px;
+    margin-top: 2670px;
+}
+
+.s_b02_10{
+    position: absolute;
+    margin-left: 33px;
+    margin-top: 4052px;
+}
+
+
+.wrap6{
+    width: 1400px;
+    height: 276px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.s_b02_ft{
+    width: 1400px;
+    height: 276px;
+    position: absolute;
+    margin: 0 auto;
+}
+
+.LOGO2{
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 80px;
+}
+
+
+/**--sub3스타일--*/
+
+
+.wrap7{
+    position: absolute;
+    width: 100%;
+    height: 6768px;
+    background-color: #6d6d6d;
+}
+
+.box3{
+    position: relative;
+    width: 1466px;
+    height: 6768px;
+    margin: auto;
+}
+
+.img5{
+    background-image: url(img4/흰배경.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    width: 1466px;
+    height: 6768px;
+    margin: auto;
+}
+
+.img6{
+    width: 1400px;
+    height: 649px;
+    position: relative;
+    width: 1400px;
+    margin: auto;
+}
+
+
+.s_b03_01{
+    width: 1400px;
+    height: 55px;
+    position: absolute;
+    margin-left: 33px;
+}
+    
+.s_b03_02{
+    width: 351px;
+    height: 55px;
+    position: absolute;
+    margin-left: 33px;
+}
+.s_b03_03{
+    width: 351px;
+    height: 55px;
+    position: absolute;
+    margin-left: 383px;
+}
+.s_b03_04{
+    width: 351px;
+    height: 55px;
+    position: absolute;
+    margin-left: 733px;
+}
+.s_b03_05{
+    width: 351px;
+    height: 55px;
+    position: absolute;
+    margin-left: 1083px;
+}
+
+.s_b03_06{
+    position: absolute;
+    margin-left: 33px;
+    margin-top: 55px;
+}
+
+.s_b03_07{
+    position: absolute;
+    margin-left: 14px;
+    margin-top: 457px;
+}
+
+.s_b03_08{
+    position: absolute;
+    margin-left: 14px;
+    margin-top: 1512px;
+}
+
+.s_b03_09{
+    position: absolute;
+    margin-left: 33px;
+    margin-top: 2869px;
+}
+
+.s_b03_10{
+    position: absolute;
+    margin-left: 33px;
+    margin-top: 4219px;
+}
+
+.wrap8{
+    width: 1400px;
+    height: 276px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.s_b03_ft{
+    width: 1400px;
+    height: 276px;
+    position: absolute;
+    margin: 0 auto;
+    margin-top: 310px;
+}
+
+.LOGO3{
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 386px;
+}
+
